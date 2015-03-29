@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.goha.tv" name="Goha.TV" version="0.0.2" provider-name="NuisMons">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py"><provides>video</provides></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>GohaTV</summary>
+    <description>GohaTV показывает видео от главных играющих лиц, игроков, турниров, лиг и комментария, в дополнение к самым активным и интересным обсуждениям вокруг видеоигр.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
