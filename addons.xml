@@ -266,6 +266,65 @@ Audio sources are
   </extension>
 </addon>
 
+<addon id="plugin.video.175h.net"
+       name="175h.net"
+       version="0.3"
+       provider-name="x86demon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.simplejson"/>
+        <import addon="script.module.simple.downloader"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               provides="video"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Просмотр контента с 175h.net</summary>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.arjlover.net"
+       name="arjlover.net"
+       version="0.0.2"
+       provider-name="x86demon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>На этом сервере собраны советские и пост-советские мультфильмы, аудио-сказки, фильмы и детские фильмы на которых выросли многие поколения моих соотечественников.</summary>
+        <description>На этом сервере собраны советские и пост-советские мультфильмы, аудио-сказки, фильмы и детские фильмы на которых выросли многие поколения моих соотечественников.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.arrr.tv"
+       name="Arrr.tv"
+       version="1.0.4"
+       provider-name="x86demon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <!--<import addon="script.module.simplejson"/>-->
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             provides="video"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Смотрите сериалы и фильмы в высоком качестве на ARRR.tv</summary>
+    <description>Смотрите сериалы и фильмы в высоком качестве на ARRR.tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.cccp.tv"
        name="CCCP TV"
        version="1.0.5"
@@ -343,6 +402,31 @@ Audio sources are
   </extension>
 </addon>
 
+<addon id="plugin.video.fs.ua"
+       name="Fs.ua"
+       version="1.9.23"
+       provider-name="x86demon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.simplejson"/>
+        <import addon="script.module.simple.downloader"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               provides="audio, video"
+               library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Просмотр контента с brb.to (fs.ua, fs.to)</summary>
+        <description>
+На этом портале вы можете найти и, что самое главное бесплатно скачать последний новинки кино, музыкальные
+файлы, любимые видеоклипы и сериалы.
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.guzei.tv"
        name="GUZEI.TV"
        version="1.0.8"
@@ -362,6 +446,24 @@ Audio sources are
   </extension>
 </addon>
 
+<addon id="plugin.video.kino-live.org"
+       name="kino-live.org"
+       version="1.7.5"
+       provider-name="x86demon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Фильмы, сериалы с ресурса kino-live.org</summary>
+        <description>Фильмы, сериалы с ресурса kino-live.org</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.kinobaza.tv" name="Кинобаза" version="1.0.6" provider-name="HD-Lab Team">
   <requires><import addon="xbmc.python" version="2.1.0"/></requires>
   <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
@@ -372,6 +474,21 @@ Audio sources are
     <description>У нас на сайте вы можете найти новинки фильмов в хорошем качестве или HD быстро и без регистрации. Фильмы в HD качестве и DVDRip. Каждый день новые добавления. У нас можно найти что посмотреть сегодня вечером и получить уведомления о появлении новых серий и фильмов в Сети. больше не нужно ждать когда появится фильм онлайн, можно пордписаться на уведомление о выходе</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.kinogovno" name="KinoGovno" version="1.2.1" provider-name="x86demon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Stream trailers from kinogovno.com</summary>
+        <description>Scrap trailers from http://kino-govno.com russian website</description>
+	<platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.kiwi.kz" name="Kiwi.kz" version="1.0.1" provider-name="HD-Lab Team">
